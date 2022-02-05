@@ -5,15 +5,15 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: orange;
+  font-family: Futura, Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
 }
 
 h1 {
   font-size: 45px;
   margin-bottom: 50px;
   font-weight: 100;
-  color: white;
+  color: maroon;
 }
 
 .wrapper {
@@ -39,16 +39,18 @@ h1 {
   justify-content: center;
   align-items: center;
   font-size: 120px;
-  color: white;
+  color: maroon;
 }
 
 button {
   background: none;
-  background-color: rgb(252, 193, 0);
-  border: 2px orange solid;
+  background-color: bisque;
+  border: 2px maroon solid;
+  border-radius: 5px;
   padding: 15px 30px;
   margin-top: 40px;
-  color: white;
+  color: maroon;
+  box-shadow: 2px 2px 5px 2px rgba(128, 0, 0, 0.171);
   font-size: 20px;
   cursor: pointer;
   transition: all 0.25s ease-in-out;
@@ -56,6 +58,7 @@ button {
 }
 
 button:hover {
-  background-color: white;
-  color: orange;
+  background-color: maroon;
+  color: bisque;
+  border: 2px bisque solid;
 }
